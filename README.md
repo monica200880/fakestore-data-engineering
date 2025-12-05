@@ -10,6 +10,7 @@ Este proyecto implementa un pipeline completo de Data Engineering en Google Cola
 ✅ Google Drive como almacenamiento tipo Data Lake
 
 La fuente de datos es la FakeStore API, una API pública utilizada para simulación de e-commerce.
+
 fakestore_datalake/
 │
 ├── bronze/
@@ -31,10 +32,10 @@ Formato Delta Lake.
 Tipos corregidos : Rating dividido en rate / count, Categorías normalizadas y Columnas ordenadas
 
 * Gold : Tablas analíticas listas para BI:
-* 
+ 
 Precio promedio por categoría, Rating promedio, Total de reviews, Cantidad de productos.
 
-🛠️ Tecnologías utilizadas : Python 3.12, Pandas, PyArrow, Delta Lake (delta-rs), Google Colab, Google Drive como Data Lake
+ Tecnologías utilizadas : Python 3.12, Pandas, PyArrow, Delta Lake (delta-rs), Google Colab, Google Drive como Data Lake
 
 y Requests.
 
