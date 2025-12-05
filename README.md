@@ -21,7 +21,7 @@ fakestore_datalake/
 └── gold/
     └── category_metrics/
 
-    Cada capa representa un nivel de refinamiento:
+ Cada capa representa un nivel de refinamiento:
 
 * Bronze : Datos crudos tal como vienen de la API.
 Formato Delta Lake.
